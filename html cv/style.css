@@ -1,0 +1,183 @@
+body {
+    margin: auto 60px;
+}
+
+p {
+    margin: 0;
+}
+/* Css des 2 teintes différentes de couleurs*/
+.color-1{
+    color: rgb(23, 93, 105);
+}
+
+.color-2{
+    color: rgb(143, 205, 216);
+}
+
+/* Css des 2 teintes différentes de couleurs de background de la plus foncée à la moins foncée*/
+
+.baco-1{
+    background-color: rgb(31, 114, 129);
+}
+
+.baco-2{
+    background-color: rgb(108, 165, 175);
+}
+
+.baco-3{
+    background-color: rgb(99, 171, 184);
+}
+
+.baco-4{
+    background-color: rgb(135, 191, 201);
+}
+
+.baco-5{
+    background-color: rgb(202, 241, 248);
+}
+
+h3 {
+    margin: 10px 0 3px 0;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+/* Css du profil*/
+.profile {
+    display: flex;
+}
+
+.profileInfo {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+}
+
+.profileInfoStatus {
+    display: flex;
+    flex-direction: column;
+}
+.profileInfoStatus>h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.profileInfoStatusP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-block: 5px;
+}
+
+.profileInfoStatusP>p {
+    margin: 0;
+}
+.profilePhoto {
+    display:flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: 270px;
+}
+
+.profileInfoContact {
+    display: grid;
+    width:70%;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+
+.contactBlock {
+    display: flex;
+    column-gap: 8px;
+}
+
+.contactImg {
+    display: flex;
+    align-self: center;
+    width: 16px;
+    height: 12px;
+}
+
+/*Css des sections*/
+
+.sections {
+    display: flex;
+    column-gap: 80px;
+    margin-bottom: 30px;
+}
+
+.logi {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.logiBlock {
+    display: flex;
+}
+
+.logiWord {
+    width: 35%;
+}
+
+.logiIcons {
+    display: flex;
+    column-gap: 20px;
+    width: 70%;
+}
+
+.dot-icon {
+    margin-block: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.underbar {
+    height: 17px;
+    width: 70%;
+    margin: -35px 10px 20px -5px
+}
+
+.dateBlock{
+    display: flex;
+    column-gap: 5px;
+}
+
+.dateIcon {
+    display: flex;
+    align-self: center;
+    height: 18px;
+    width: 18px;
+}
+
+.date {
+    margin-block: 5px;
+}
+
+.left {
+    width: 50%;
+}
+
+.catch {
+    width: 90%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+.right {
+    width: 50%;
+}
+
+.italic {
+    font-style: italic;
+}
